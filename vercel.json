@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "api/index.php",
+            "src": "serverless.php",
             "use": "vercel-php@0.6.2"
         },
         {
@@ -21,7 +21,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/serverless.php"
         }
     ],
     "env": {
@@ -33,7 +33,7 @@
         "LOG_CHANNEL": "errorlog"
     },
     "functions": {
-        "api/index.php": {
+        "serverless.php": {
             "excludeFiles": "{lms-frontend,meeting-server,tests,postman,node_modules}/**"
         }
     }
