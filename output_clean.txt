@@ -1,0 +1,9 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'curl' (tried: C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\curl (The specified module could not be found), C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\php_curl.dll (The specified module could not be found)) in Unknown on line 0
+
+Warning: require(C:\laragon\www\lms/vendor/autoload.php): Failed to open stream: No such file or directory in C:\laragon\www\lms\artisan on line 10
+
+Fatal error: Uncaught Error: Failed opening required 'C:\laragon\www\lms/vendor/autoload.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\lms\artisan:10
+Stack trace:
+#0 {main}
+  thrown in C:\laragon\www\lms\artisan on line 10

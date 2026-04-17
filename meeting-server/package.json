@@ -1,0 +1,25 @@
+{
+    "name": "meeting-server",
+    "version": "1.0.0",
+    "description": "Meeting Server for Virtual Intern",
+    "main": "index.ts",
+    "scripts": {
+        "start": "ts-node --files index.ts",
+        "dev": "nodemon --exec ts-node --files index.ts"
+    },
+    "dependencies": {
+        "fastify": "^4.26.2",
+        "@fastify/cors": "^8.5.0",
+        "fastify-socket.io": "^4.0.0",
+        "socket.io": "^4.7.4",
+        "dotenv": "^16.4.5",
+        "puppeteer": "^22.0.0",
+        "puppeteer-screen-recorder": "^2.1.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.2",
+        "nodemon": "^3.0.3",
+        "@types/node": "^20.11.24"
+    }
+}

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: #0f172a; /* Slate-900 */
+  color: white;
+  overflow: hidden;
+}
+
+/* src/index.css */
+@keyframes bounce-up {
+  0% { transform: translateY(0) scale(0.5); opacity: 0; }
+  20% { opacity: 1; transform: translateY(-20px) scale(1.2); }
+  100% { transform: translateY(-150px) scale(1); opacity: 0; }
+}
+
+.animate-bounce-up {
+  animation: bounce-up 2s ease-out forwards;
+}

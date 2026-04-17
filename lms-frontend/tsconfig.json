@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "checkJs": false,
+        "noEmit": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*.tsx",
+        "src/**/*.ts"
+, "src/components/certificate/PrintableCertificate.jsx"    ]
+}

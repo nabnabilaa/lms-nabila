@@ -1,0 +1,37 @@
+{
+  "node_modules/axios/index.js": {
+    "file": "assets/index-BBTKOM0z.js",
+    "name": "index",
+    "src": "node_modules/axios/index.js",
+    "isDynamicEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CWFMuN7K.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bh8fbW65.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "node_modules/axios/index.js"
+    ]
+  },
+  "resources/js/frontend/main.jsx": {
+    "file": "assets/main-DkNYru4u.js",
+    "name": "main",
+    "src": "resources/js/frontend/main.jsx",
+    "isEntry": true,
+    "imports": [
+      "node_modules/axios/index.js"
+    ],
+    "dynamicImports": [
+      "node_modules/axios/index.js"
+    ],
+    "css": [
+      "assets/main-tZdSVls8.css"
+    ]
+  }
+}
