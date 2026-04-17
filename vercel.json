@@ -31,5 +31,10 @@
         "SESSION_DRIVER": "cookie",
         "QUEUE_CONNECTION": "sync",
         "LOG_CHANNEL": "errorlog"
+    },
+    "functions": {
+        "api/index.php": {
+            "excludeFiles": "{lms-frontend,meeting-server,tests,postman,node_modules}/**"
+        }
     }
 }
