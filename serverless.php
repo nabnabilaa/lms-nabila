@@ -25,4 +25,4 @@ putenv("VIEW_COMPILED_PATH={$storagePath}/framework/views");
 
 
 // Meneruskan request dari serverless Vercel ke sistem utama Laravel
-require __DIR__ . '/../public/index.php';
+require __DIR__ . '/public/index.php';
