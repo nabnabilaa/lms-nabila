@@ -20,6 +20,7 @@ $app = Application::configure(basePath: dirname(__DIR__))
 
 if ($storage = getenv('APP_STORAGE')) {
     $app->useStoragePath($storage);
+    $app->useBootstrapPath($storage . '/bootstrap');
 }
 
 return $app;
