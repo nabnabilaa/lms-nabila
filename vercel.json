@@ -3,7 +3,10 @@
     "builds": [
         {
             "src": "serverless.php",
-            "use": "vercel-php@0.6.2"
+            "use": "vercel-php@0.6.2",
+            "config": {
+                "excludeFiles": ["lms-frontend/**", "meeting-server/**", "tests/**", "postman/**", "node_modules/**"]
+            }
         },
         {
             "src": "public/**",
@@ -31,10 +34,5 @@
         "SESSION_DRIVER": "cookie",
         "QUEUE_CONNECTION": "sync",
         "LOG_CHANNEL": "errorlog"
-    },
-    "functions": {
-        "serverless.php": {
-            "excludeFiles": "{lms-frontend,meeting-server,tests,postman,node_modules}/**"
-        }
     }
 }
